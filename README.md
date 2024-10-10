@@ -17,6 +17,8 @@ We leverage the following cutting-edge technologies to empower your development:
 ![Husky](https://img.shields.io/badge/Husky-5B8BF3?style=flat&logo=git&logoColor=white)
 ![Prettier](https://img.shields.io/badge/Prettier-DB7093?style=flat&logo=prettier&logoColor=white)
 ![Lint-Staged](https://img.shields.io/badge/Lint--Staged-0B9E47?style=flat&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=github-pages&logoColor=white)
 
 ## 🌟 Features
 
@@ -24,11 +26,14 @@ We leverage the following cutting-edge technologies to empower your development:
 - **Sass Support:** Easy and flexible styling using Sass, enabling powerful CSS features.
 - **Localization:** Seamless internationalization with `i18next` and `react-i18next`, making your application accessible to a global audience.
 - **TypeScript Ready:** Full TypeScript support, ensuring type safety and better development experience.
-- **Code Quality Assurance:** Integrated pre-commit hooks with Husky to enforce linting and formatting using ESLint and Prettier before every commit.
+- **Code Quality:** Integrated ESLint and Prettier for maintaining consistent code quality and formatting.
+- **Pre-commit Hooks:** Automatic code linting and formatting before each commit using Husky and Lint-Staged.
+- **Continuous Deployment:** Automated build and deploy with GitHub Actions, deploying directly to GitHub Pages.
 
-### 🚀 Getting Started
+## 🚀 Status
 
-This template provides a solid starting point for your next project.
+[![Build and Deploy](https://github.com/letter-k/template-react-ts-project/actions/workflows/build-and-deploy.yml/badge.svg)](https://github.com/letter-k/template-react-ts-project/actions/workflows/build-and-deploy.yml)
+[![pages-build-deployment](https://github.com/letter-k/template-react-ts-project/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/letter-k/template-react-ts-project/actions/workflows/pages/pages-build-deployment)
 
 ---
 
