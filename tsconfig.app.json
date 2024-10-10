@@ -17,7 +17,7 @@
     /* Paths alias */
     "paths": {
       "@/*": ["./src/*"],
-      "@/assets/*": ["./src/assets/*"],
+      "@/assets/*": ["./src/assets/*"]
     },
 
     /* Linting */

@@ -1,5 +1,5 @@
 {
-    "countMessage": "count is {{count}}",
-    "editCode": "Edit <code>src/app/App.tsx</code> and save to test HMR",
-    "readDocs": "Click on the Vite and React logos to learn more"
+  "countMessage": "count is {{count}}",
+  "editCode": "Edit <code>src/app/App.tsx</code> and save to test HMR",
+  "readDocs": "Click on the Vite and React logos to learn more"
 }

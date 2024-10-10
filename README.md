@@ -28,7 +28,7 @@ We leverage the following cutting-edge technologies to empower your development:
 
 ### 🚀 Getting Started
 
-This template provides a solid starting point for your next project. 
+This template provides a solid starting point for your next project.
 
 ---
 

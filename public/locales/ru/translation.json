@@ -1,5 +1,5 @@
 {
-    "countMessage": "счетчик равен {{count}}",
-    "editCode": "Измените <code>src/app/App.tsx</code> и сохраните, чтобы протестировать HMR",
-    "readDocs": "Нажмите на логотипы Vite и React, чтобы узнать больше"
+  "countMessage": "счетчик равен {{count}}",
+  "editCode": "Измените <code>src/app/App.tsx</code> и сохраните, чтобы протестировать HMR",
+  "readDocs": "Нажмите на логотипы Vite и React, чтобы узнать больше"
 }
