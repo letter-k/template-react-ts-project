@@ -14,6 +14,9 @@ We leverage the following cutting-edge technologies to empower your development:
 ![react-i18next](https://img.shields.io/badge/react--i18next-00BFFF?style=flat&logo=react&logoColor=white)
 ![Yarn](https://img.shields.io/badge/Yarn-2F8EED?style=flat&logo=yarn&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=flat&logo=eslint&logoColor=white)
+![Husky](https://img.shields.io/badge/Husky-5B8BF3?style=flat&logo=git&logoColor=white)
+![Prettier](https://img.shields.io/badge/Prettier-DB7093?style=flat&logo=prettier&logoColor=white)
+![Lint-Staged](https://img.shields.io/badge/Lint--Staged-0B9E47?style=flat&logo=git&logoColor=white)
 
 ## 🌟 Features
 
@@ -21,6 +24,7 @@ We leverage the following cutting-edge technologies to empower your development:
 - **Sass Support:** Easy and flexible styling using Sass, enabling powerful CSS features.
 - **Localization:** Seamless internationalization with `i18next` and `react-i18next`, making your application accessible to a global audience.
 - **TypeScript Ready:** Full TypeScript support, ensuring type safety and better development experience.
+- **Code Quality Assurance:** Integrated pre-commit hooks with Husky to enforce linting and formatting using ESLint and Prettier before every commit.
 
 ### 🚀 Getting Started
 
