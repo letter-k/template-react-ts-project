@@ -1,9 +1,11 @@
+import { useTranslation } from 'react-i18next';
 import { useState } from 'react'
 import reactLogo from '@/assets/react.svg'
 import viteLogo from '@/assets/vite.svg'
 import './App.scss'
 
 export default function App() {
+  const { t, i18n } = useTranslation();
   const [count, setCount] = useState(0)
 
   return (
@@ -19,14 +21,15 @@ export default function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          {t('countMessage', { count })}
         </button>
-        <p>
-          Edit <code>src/app/App.tsx</code> and save to test HMR
-        </p>
+        <button onClick={() => i18n.changeLanguage(i18n.language === 'en' ? 'ru' : 'en')}>
+          {i18n.language === 'en' ? 'Switch to Russian' : 'Switch to English'}
+        </button>
+        <p dangerouslySetInnerHTML={{ __html: t('editCode') }} />
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        {t('readDocs')}
       </p>
     </>
   )
